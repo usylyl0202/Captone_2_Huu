@@ -1,0 +1,122 @@
+header {
+  background: $text-c1-dark;
+  border: 1px solid $text-c1-dark;
+  .container {
+    @include flexDefault();
+    // justify-content: space-between;
+    height: 50px;
+    position: relative;
+    .Logo {
+    }
+    // .header-right{
+    // @include flexDefault();
+    // justify-content: space-between;
+    height: 50px;
+    color: $text-c1-light;
+    .card {
+      @include flexDefault();
+      position: absolute;
+      width: 66px;
+      height: 36px;
+      left: 1027px;
+      top: 6px;
+      img {
+        position: absolute;
+        left: 0%;
+        right: 53.03%;
+        top: 8.33%;
+        bottom: 5.56%;
+      }
+      p {
+        @include text($text-3xl, $text-light, $text-c1-light, 36.31px);
+        position: absolute;
+        left: 46.97%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+      }
+    }
+    .login {
+      position: absolute;
+      width: 91px;
+      height: 32px;
+      left: 1103px;
+      top: 15px;
+      @include text($text-base, $text-light, rgba(246, 246, 246, 1), 19.36px);
+    }
+    .register {
+      position: absolute;
+      width: 90px;
+      height: 32px;
+      left: 1170px;
+      top: 15px;
+      @include text($text-base, $text-light, rgba(246, 246, 246, 1), 19.36px);
+    }
+  }
+}
+navbar {
+  .container {
+    position: relative;
+    width: 1280px;
+    height: 50px;
+
+    background: #ffffff;
+
+    .navbar {
+      position: absolute;
+      width: 60px;
+      height: 0px;
+      left: 24px;
+      //   top: 50px;
+      @include text($text-2xl, $text-regular, text-c1-light, 24px);
+
+      .Home {
+        position: absolute;
+        width: 56px;
+        height: 24px;
+        left: 25px;
+        top: 16px;
+        text-decoration: none;
+        color: $text-c1-dark;
+      }
+      .Men {
+        position: absolute;
+        width: 41px;
+        height: 24px;
+        left: 105px;
+        top: 16px;
+        text-decoration: none;
+        color: $text-c1-dark;
+        opacity: 0.7;
+      }
+      .Woman {
+        position: absolute;
+        width: 70px;
+        height: 24px;
+        left: 183px;
+        top: 16px;
+        text-decoration: none;
+        color: $text-c1-dark;
+        opacity: 0.7;
+      }
+      .Kid {
+        position: absolute;
+        width: 31px;
+        height: 24px;
+        left: 292px;
+        top: 16px;
+        text-decoration: none;
+        color: $text-c1-dark;
+      }
+      .Sport {
+        position: absolute;
+        width: 52px;
+        height: 24px;
+        left: 363px;
+        top: 16px;
+        color: $text-c1-dark;
+        text-decoration: none;
+      }
+    }
+  }
+}

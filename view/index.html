@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a class="Logo" href="">
+          <img src="../assets/image/image 3.png" alt="logo" />
+        </a>
+        <!-- <div class="header-right"> -->
+        <div class="card">
+          <img src="../assets/image/image 8.png" alt="cart" />
+          <p class="textcart">(1)</p>
+        </div>
+        <div class="login">Login</div>
+        <div class="register">Register</div>
+        <!-- </div> -->
+      </div>
+    </header>
+    <navbar>
+      <div class="container">
+        <div class="navbar">
+          <a href="../view/index.html" class="Home">Home</a>
+          <a href="" class="Men">Men</a>
+          <a href="" class="Woman">Woman</a>
+          <a href="" class="Kid">Kid</a>
+          <a href="" class="Sport">Sport</a>
+        </div>
+      </div>
+    </navbar>
+    <div class="carousel">
+      <div class="container">
+        <div class="swiper mySwiper">
+          <!-- <img src="../assets/image/image6.png" alt=""> -->
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <!-- <div class="carousel-img">
+                <img
+                  data-src="https://swiperjs.com/demos/images/nature-1.jpg"
+                  class="swiper-lazy"
+                />
+              </div>
+              <div
+                class="swiper-lazy-preloader swiper-lazy-preloader-white"
+              ></div>
+              <div class="product-info">
+                <h3 id="productName">Product Name</h3>
+                <p id="productDescription">Product Description</p>
+                <button id="Buy">Buy now</button>
+              </div> -->
+            </div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+          </div>
+          <div class="swiper-button-next fa-solid fa-caret-right"></div>
+          <i class="fa-solid fa-caret-right"></i>
+          <i class="swiper-button-prev fa-solid fa-caret-left"></i>
+          <i class="fa-solid fa-caret-left"></i>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <div class="productFeature">
+      <div class="container">
+        <h3 class="product-feature-label">Product Features</h3>
+        <div class="product">
+          <div class="product-item">
+            <div id="item-Features" class="item">
+              <img
+                class="product-img"
+                src="../assets/image/image 5.png"
+                alt=""
+              />
+              <h3 class="product-name">Adidas Prophere</h3>
+
+              <p class="product-description">short descript</p>
+              <div class="card-bottom">
+                <button class="btn-buy">Buy now</button>
+
+                <p class="product-price">85$</p>
+              </div>
+            </div>
+            <!-- <div class="item">
+              <img
+                class="product-img"
+                src="../assets/image/image 5.png"
+                alt=""
+              />
+              <h3 class="product-name">Adidas Prophere</h3>
+
+              <p class="product-description">short descript</p>
+              <div class="card-bottom">
+                <button class="btn-buy">Buy now</button>
+
+                <p class="product-price">85$</p>
+              </div>
+            </div>
+            <div class="item">
+              <img
+                class="product-img"
+                src="../assets/image/image 5.png"
+                alt=""
+              />
+              <h3 class="product-name">Adidas Prophere</h3>
+
+              <p class="product-description">short descript</p>
+              <div class="card-bottom">
+                <button class="btn-buy">Buy now</button>
+
+                <p class="product-price">85$</p>
+              </div>
+            </div>
+            <div class="item">
+              <img
+                class="product-img"
+                src="../assets/image/image 5.png"
+                alt=""
+              />
+              <h3 class="product-name">Adidas Prophere</h3>
+
+              <p class="product-description">short descript</p>
+              <div class="card-bottom">
+                <button class="btn-buy">Buy now</button>
+
+                <p class="product-price">85$</p>
+              </div>
+            </div> -->
+          </div>
+          <div id="pagination"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img src="../assets/image/image 8 (1).png" alt="footer" />
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+      integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../controllers/productFeatures.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+
+        lazy: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script src="../controllers/detail.js"></script>
+    <script type="text/javascript" src="../controllers/carousel.js"></script>
+    <script type="text/javascript" src="../controllers/Pagination.js"></script>
+    <script type="text/javascript" src="../controllers/index.js"></script>
+  </body>
+</html>

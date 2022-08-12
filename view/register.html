@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Font google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- my style -->
+        <link rel="stylesheet" href="../css/register.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container_header">
+                <div class="left">
+                    <div class="logo">
+                        <a href="#">
+                            <!-- <img src="../img/image 3.png" alt="logo"> -->
+                            <img src="../assets/image/image 3.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="pay">
+                        <a href="#">
+                            <img src="../assets/image/image 8.png" alt="cart">
+                        </a>
+                        <div class="soLuong">
+                            <span>(1)</span>
+                        </div>
+                    </div>
+                    <div class="login_register">
+                        <div class="login">
+                            <a href="#">Login</a>
+                        </div>
+                        <div class="register">
+                            <a href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="gender men">Men</a>
+                </li>
+                <li>
+                    <a href="#" class="gender woman">Woman</a>
+                </li>
+                <li class="box-kid">
+                    <a href="#" class="kid">Kid</a>
+                </li>
+                <li class="sport">
+                    <a href="#">Sport</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="register">
+            <div class="container">
+                <div class="title">
+                    <h1>Register</h1>
+                </div>
+                <div class="row">
+                    <div class="col-left">
+                        <div class="input input1">
+                            <input type="text" placeholder="email" id="email">
+                            <span id="tbEmail">(*)</span>
+                        </div>
+                        <div class="input input2">
+                            <input type="text" placeholder="password" id="password">
+                            <span id="tbPassword">(*)</span>
+                        </div>
+                        <div class="input input3">
+                            <input type="text" placeholder="password confirm">
+                            <span id="tbPasswordConfirm">(*)</span>
+                        </div>
+                    </div>
+                    <div class="col-right">
+                        <div class="input input1">
+                            <input type="text" placeholder="name" id="name">
+                            <span id="tbName">(*)</span>
+                        </div>
+                        <div class="input input2">
+                            <input type="text" placeholder="phone" id="phone">
+                            <span id="tbPhone">(*)</span>
+                        </div>
+                        <div class="gender input3">
+                            <span id="tbGender"></span>
+                            <label>Gender</label>
+                            <input type="radio" placeholder="phone" name="gender" value="true">
+                            <label for="male">Male</label>
+                            <input type="radio" placeholder="phone" name="gender" value="">
+                            <label for="female">Female</label>
+                        </div>
+                        <button id="btnSubmit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <img src="../assets/img/footer.png" alt="">
+            </div>
+        </footer>
+
+        <!-- Axios -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"
+            integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- my js -->
+        <script src="../controllers/register.js"></script>
+    </body>
+</html> 

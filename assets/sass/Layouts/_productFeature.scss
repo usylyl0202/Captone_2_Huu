@@ -1,0 +1,115 @@
+.productFeature {
+  background: #fffcfc;
+  .container {
+    // display: flex;
+    width: 1280px;
+    height: 100%;
+
+    .product-feature-label {
+      @include text($text-4xl, $text-regular, $text-c1-dark, 48px);
+      text-align: center;
+      margin-top: 30px;
+    }
+    .product {
+      .product-item {
+        margin: 50px;
+        display: grid;
+        height: 100%;
+        grid-template: auto 1fr / auto 1fr auto;
+        gap: 50px 60px;
+        width: calc(100% / 3);
+        .item {
+          //
+          background: $bg-c1-secondary;
+          position: relative;
+
+          .product-img {
+            display: block;
+            margin: 45px 57px 30px 57px;
+            width: 250px;
+            height: 200px;
+            transition: linear 1s;
+
+            &:hover {
+              transform: scaleX(-1);
+            }
+          }
+          .product-name {
+            margin-left: 23px;
+            @include text(24px, $text-light, $text-c1-dark, 29px);
+          }
+          .product-description {
+            margin-left: 23px;
+            margin-top: 8px;
+            margin-bottom: 13px;
+            @include text($text-2xl, $text-light, $text-c1-der, 24px);
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-word;
+          }
+          .card-bottom {
+            @include flexDefault();
+            flex-wrap: nowrap;
+
+            height: 64px;
+            .btn-buy {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              width: 50%;
+              height: 100%;
+              border: none;
+              background-color: #e1b067;
+              @include text(24px, 200, $text-c1-dark, 29px);
+              &:hover {
+                cursor: pointer;
+                background-color: $bg-c1-primary;
+                transition: all 0.5s;
+              }
+            }
+            .product-price {
+              height: 100%;
+              width: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: #dedddc;
+              @include text(24px, $text-semibold, $text-c1-dark, 29px);
+            }
+          }
+        }
+      }
+      #pagination {
+        background-color: bg-c1-secondary;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        a {
+          list-style: none;
+          background-color: $text-c1-der;
+          margin-right: 20px;
+          height: 50px;
+          width: 50px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          border-radius: 50%;
+          transition: all 0.5s;
+          @include text($text-2xl, $text-semibold, text-c1-dark, 36px);
+
+          &:hover {
+            cursor: pointer;
+            opacity: 0.3;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.input-register {
+  position: relative;
+  width: 482px;
+  height: 51px;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+}
+@media (max-width: 576px) {
+  .input-register {
+    height: 40px !important;
+  }
+}
+.input-register::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background-color: #AE18E2;
+}
+@media (max-width: 768px) {
+  .input-register::after {
+    height: 2px;
+  }
+}
+@media (max-width: 576px) {
+  .input-register::after {
+    height: 1px;
+  }
+}
+.input-register input {
+  font-size: 30px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 36px;
+  width: 100%;
+  border: none;
+  outline: none;
+  z-index: 1;
+  position: relative;
+  background: transparent;
+}
+.input-register input::placeholder {
+  color: #000000;
+}
+@media (max-width: 576px) {
+  .input-register input {
+    font-size: 20px;
+  }
+}
+.input-register span {
+  position: absolute;
+  right: 0;
+  top: 17.65%;
+  font-size: 20px;
+  font-weight: 400;
+  color: #F50E0E;
+  line-height: 24px;
+  text-align: end;
+}

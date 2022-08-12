@@ -1,0 +1,291 @@
+.RegisterContent {
+  .container {
+    position: relative;
+    width: 1280px;
+    height: 538px;
+    background: $bg-c1-secondary;
+
+    h1 {
+      position: absolute;
+      width: 156px;
+      height: 48px;
+      left: 524px;
+      top: 30px;
+      @include text($text-4xl, $text-regular, $text-c1-dark, 48px);
+    }
+    .textBox1 {
+      position: absolute;
+      width: 482px;
+      height: 51px;
+      left: 120px;
+      top: 140px;
+      width: 482px;
+      height: 51px;
+      border-bottom: 5px solid $bg-c1-primary;
+      input {
+        position: absolute;
+        left: 0%;
+        right: 28.22%;
+        top: 0%;
+        bottom: 29.41%;
+        @include text($text-3xl, $text-regular, $text-c1-dark, 36px);
+        background-color: transparent;
+        border: 0px solid;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      p {
+        position: absolute;
+        left: 95.02%;
+        right: -43.36%;
+        top: 17.65%;
+        bottom: 15.69%;
+        @include text($text-2xl, $text-regular, $text-c1-red, 24px);
+      }
+    }
+    .textBox2 {
+      position: absolute;
+      width: 482px;
+      height: 51px;
+      left: 701px;
+      top: 140px;
+
+      border-bottom: 5px solid $bg-c1-primary;
+      input {
+        position: absolute;
+        left: 0%;
+        right: 28.22%;
+        top: 0%;
+        bottom: 29.41%;
+        @include text($text-3xl, $text-regular, $text-c1-dark, 36px);
+        background-color: transparent;
+        border: 0px solid;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      p {
+        position: absolute;
+        left: 95.02%;
+        right: -43.36%;
+        top: 17.65%;
+        bottom: 15.69%;
+        @include text($text-2xl, $text-regular, $text-c1-red, 24px);
+      }
+    }
+    .textBox3 {
+      position: absolute;
+      width: 482px;
+      height: 51px;
+      left: 120px;
+      top: 218px;
+      border-bottom: 5px solid $bg-c1-primary;
+      input {
+        position: absolute;
+        left: 0%;
+        right: 28.22%;
+        top: 0%;
+        bottom: 29.41%;
+        @include text($text-3xl, $text-regular, $text-c1-dark, 36px);
+        background-color: transparent;
+        border: 0px solid;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      p {
+        position: absolute;
+        left: 95.02%;
+        right: -43.36%;
+        top: 17.65%;
+        bottom: 15.69%;
+        @include text($text-2xl, $text-regular, $text-c1-red, 24px);
+      }
+    }
+    .textBox4 {
+      position: absolute;
+      width: 482px;
+      height: 51px;
+      left: 696px;
+      top: 218px;
+      border-bottom: 5px solid $bg-c1-primary;
+      input {
+        position: absolute;
+        left: 0%;
+        right: 28.22%;
+        top: 0%;
+        bottom: 29.41%;
+        @include text($text-3xl, $text-regular, $text-c1-dark, 36px);
+        background-color: transparent;
+        border: 0px solid;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      p {
+        position: absolute;
+        left: 95.02%;
+        right: -43.36%;
+        top: 17.65%;
+        bottom: 15.69%;
+        @include text($text-2xl, $text-regular, $text-c1-red, 24px);
+      }
+
+      //   .line {
+      //     position: absolute;
+      //     left: 0%;
+      //     right: 0%;
+      //     top: 100%;
+      //     bottom: 0%;
+      //     width: 482px;
+      //     height: 5px;
+      //     background: linear-gradient(#ae18e2 100%, #000000 0%);
+      //   }
+    }
+    .textBox5 {
+      position: absolute;
+      width: 482px;
+      height: 51px;
+      left: 120px;
+      top: 302px;
+      border-bottom: 5px solid $bg-c1-primary;
+      input {
+        position: absolute;
+        left: 0%;
+        right: 28.22%;
+        top: 0%;
+        bottom: 29.41%;
+        @include text($text-3xl, $text-regular, $text-c1-dark, 36px);
+        background-color: transparent;
+        border: 0px solid;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      p {
+        position: absolute;
+        left: 95.02%;
+        right: -43.36%;
+        top: 17.65%;
+        bottom: 15.69%;
+        @include text($text-2xl, $text-regular, $text-c1-red, 24px);
+      }
+
+      //   .line {
+      //     position: absolute;
+      //     left: 0%;
+      //     right: 0%;
+      //     top: 100%;
+      //     bottom: 0%;
+      //     width: 482px;
+      //     height: 5px;
+      //     background: linear-gradient(#ae18e2 100%, #000000 0%);
+      //   }
+    }
+    h3 {
+      position: absolute;
+      width: 105px;
+      height: 36px;
+      left: 696px;
+      top: 327px;
+      @include text($text-3xl, $text-regular, $text-c1-dark, 36px);
+    }
+    .radio1 {
+      position: absolute;
+      width: 140px;
+      height: 50px;
+      left: 823px;
+      top: 313px;
+      input {
+        position: absolute;
+        left: 4.67%;
+        right: 48.6%;
+        top: 0%;
+        bottom: 0%;
+
+        // &[type="radio"]:after {
+        //   position: absolute;
+        //   left: 14.02%;
+        //   right: 57.94%;
+        //   top: 20%;
+        //   bottom: 20%;
+        //   background: #d1d3d1;
+        //   content: "";
+
+        //   visibility: visible;
+        // }
+        // &[type="radio"]:checked:after {
+        //   border-radius: 15px;
+
+        //   background-color: #ffa500;
+        //   content: "";
+
+        //   visibility: visible;
+
+        //   position: absolute;
+        //   left: 14.02%;
+        //   right: 57.94%;
+        //   top: 20%;
+        //   bottom: 20%;
+        // }
+      }
+
+      .labelMale {
+        position: absolute;
+        left: 60.71%;
+        right: -51.43%;
+        top: 20%;
+        bottom: 8%;
+        @include text($text-3xl, $text-regular, $text-c1-dark, 36px);
+      }
+    }
+
+    .radio2 {
+      position: absolute;
+      width: 140px;
+      height: 50px;
+      left: 1017px;
+      top: 316px;
+      input {
+        position: absolute;
+        left: 4.67%;
+        right: 48.6%;
+        top: 0%;
+        bottom: 0%;
+
+        background-color: red;
+
+        &[type="radio"] {
+          background: #93e026;
+        }
+      }
+      .labelFemale {
+        position: absolute;
+        left: 60.71%;
+        right: -51.43%;
+        top: 20%;
+        bottom: 8%;
+        @include text($text-3xl, $text-regular, $text-c1-dark, 36px);
+      }
+    }
+    #submit {
+      position: absolute;
+      width: 291px;
+      height: 50px;
+      left: calc(50% - 291px / 2 + 206.5px);
+      top: calc(50% - 50px / 2 + 204px);
+      background-color: $bg-c1-primary;
+      border: none;
+      @include text($text-3xl, $text-regular, $text-c1-light, 36px);
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

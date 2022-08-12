@@ -1,0 +1,26 @@
+@import "./Base/Customisize";
+@import "./Components/button";
+@import "./Helpers/mixin";
+@import "./Layouts/header";
+@import "../sass/Layouts/header";
+@import "./Layouts/register";
+@import "./Layouts/carousel";
+@import "./Layouts/productFeature";
+@import "./Layouts/productName";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  // padding: 0 15px;
+}
+footer {
+  .container {
+    height: 100%;
+  }
+}
